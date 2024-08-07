@@ -1,14 +1,14 @@
-import '../dist/output.css';
+import './css/output.css';
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 
 function App() {
   return (
     <>
-        <Header></Header>
-        <Footer></Footer>
+      <Header />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
